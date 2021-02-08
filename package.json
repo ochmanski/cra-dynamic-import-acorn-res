@@ -1,7 +1,10 @@
 {
-  "name": "cra-dynamic-import-test-2",
+  "name": "cra-dynamic-import-acorn-res",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "acorn": ">=5.7.4 <6.0.0 || >=6.4.1 <7.0.0 || >=7.1.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
